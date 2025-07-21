@@ -22,7 +22,7 @@ const CarInfo: React.FC<Props> = (props) => {
       <table>
         <thead>
           <tr>
-            <th><p>Наименовение</p></th>
+            <th><p>Наименование</p></th>
             <th><p>Модель</p></th>
             <th><button onClick={()=>{ 
               setYearSortToggled(true);
